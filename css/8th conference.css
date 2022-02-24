@@ -280,6 +280,18 @@ section .container p a {
 .contact p span {
   color: #e73f3f !important;
 }
+@media (max-width: 767px) {
+  .contact p:nth-child(3) {
+    color: #2b7f97;
+    border: 1px solid var(--line-color);
+    border-radius: 3px;
+  }
+  .contact p:nth-child(4) {
+    color: #2b7f97;
+    border: 1px solid var(--line-color);
+    border-radius: 3px;
+  }
+}
 /* end contact */
 /* strat-footer */
 footer {
