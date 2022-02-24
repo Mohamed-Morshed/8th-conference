@@ -116,7 +116,7 @@ header .container nav ul li .active::before {
 /* start section */
 section .landing {
   background-color: black;
-  background-image: url(../images/pexels-pavel-danilyuk-8761335.jpg);
+  background-image: url(../images/vetbd.jpg);
   background-size: cover;
   height: 100vh;
   position: relative;
@@ -126,7 +126,7 @@ section .landing {
 }
 @media (max-width: 768px) {
   section .landing {
-    background-image: url(../images/concentrated-doctor-working-with-a-virtual-screen_1134-639.jpg);
+    background-image: url(../images/vetm2.jpg);
   }
 }
 section .landing::before {
@@ -137,7 +137,7 @@ section .landing::before {
   left: 0;
   top: 0;
   z-index: 2;
-  background-color: rgb(0 0 0 / 70%);
+  background-color: rgb(0 0 0 / 40%);
 }
 section .container {
   width: 50%;
@@ -154,7 +154,7 @@ section .container {
 }
 section .container h1:nth-child(2) {
   font-family: "Anton", sans-serif;
-  color: var(--line-color);
+  color: #dbdbdb;
   text-align: center;
   letter-spacing: 0.8px;
 }
@@ -173,10 +173,10 @@ section .container h1:nth-child(4) {
   color: var(--active-color);
   margin-top: -7px;
 }
-section .container P {
+section .container .attend {
   text-align: center;
   font-weight: bold;
-  color: var(--line-color);
+  color: #dbdbdb;
 }
 section .container p a {
   color: red;
@@ -239,7 +239,7 @@ section .container p a {
   margin-bottom: 20px;
   /* text-align: center; */
   font-weight: 600;
-  color: #765757;
+  color: #757575;
 }
 .special-heading p:nth-child(4) {
   text-align: center;
